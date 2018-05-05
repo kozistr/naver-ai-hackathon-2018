@@ -32,6 +32,8 @@ phase 2 | movie-review | mse      |         |        |
  final  | kin          | acc      | 0.8115  | 4th    | ![code](kin/main.py)
  final  | movie-review | mse      | 0.0310  | 13th   | ![code](movie-review/main.py)
 
+> 전처리를 하나도 하지 않고 기본 도커만 사용해서 **main.py** 만 업로드 합니다!
+
 ## Models
 
 Soon~
