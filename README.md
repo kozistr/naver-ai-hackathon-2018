@@ -32,7 +32,7 @@ phase 2 | movie-review | mse      |         |        |
  final  | kin          | acc      | 0.8115  | 4th    | ![code](kin/main.py)
  final  | movie-review | mse      | 0.0310  | 13th   | ![code](movie-review/main.py)
 
-> 전처리를 하나도 하지 않고 기본 도커만 사용해서 **main.py** 만 업로드 합니다!
+> 전처리를 하나도 하지 않고 기본 도커만 사용해서 시도 한 모델들의 **main.py**만 업로드 합니다!
 
 ## Models
 
@@ -56,7 +56,7 @@ Here's **summary docs**! ![Summary](_refs/kozistr-naver_ai_hackathon_2018_report
 |      Char Embedding       |      378       | 378 ~ 400 good                |
 |      CNN kernel size      | 10, 9, 7, 5, 3 | 10 이하에서 찾음                |
 |      CNN filter size      |      256       | 256 ~ good                    |
-|         FC Unit           |     1024       | 1024 good                    |
+|         FC Unit           |     1024       | 1024 good                     |
 |        Optimizer          |     Adam       | Adam, NAdam, SGD ~            |
 ...
 
