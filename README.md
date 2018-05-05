@@ -24,7 +24,7 @@ And also i uploaded **summary docs** with **the codes**.
 ### Result
 
 *Stage* | *Mission*    | *Metric* | *Score* | *Rank* | *Code*
-:-----: | :----------: | :------: | :-----: | :----: | :----:
+:-----: | :----------: | :------: | :-----: | :----: | :------:
 phase 1 | kin          | acc      |         |        |
 phase 1 | movie-review | mse      |         |        |
 phase 2 | kin          | acc      |         |        |
