@@ -6,10 +6,10 @@
 
 ## tl;dr
 
-I participated in [Naver A.I Hackathon 2018] and <br/>
+I participated in [Naver A.I Hackathon 2018] and 
 **ranked 4th/13th(over 200 teams total)** as an individual participant (Team : kozistr)
 
-And also i uploaded **summary docs** with the codes.
+And also i uploaded **summary docs** with **the codes**.
 
 ### Final LeaderBoard
 
@@ -36,16 +36,43 @@ phase 2 | movie-review | mse      |         |
 
 Soon~
 
+## Summary!
+
+Here's **summary docs**! ![Summary](_refs/kozistr-naver_ai_hackathon_2018_report.pdf)
+
+
 ## Hyper-Parameters
 
-Soon~
+### 네이버 지식iN 질문 유사도 예측
 
-## Summary
+|           Name            |   Value        |          Note                 |
+| :-----------------------: | :------------: | :---------------------------: |
+|          Epochs           |      100       | 70 ~ 80 에서 converge          |
+|       Learning Rate       |      1e-3      | exponential decay (rate 0.95) |
+|        Batch Size         |     64/128     | 본선에서는 128                  |
+|       DropOut Rate        |      0.7       | 0.7 is the best               |
+|      Char Embedding       |      378       | 378 ~ 400 good                |
+|      CNN kernel size      | 10, 9, 7, 5, 3 | 10 이하에서 찾음                |
+|      CNN filter size      |      256       | 256 ~ good                    |
+|         FC Unit           |     1024       | 1024 good                    |
+|        Optimizer          |     Adam       | Adam, NAdam, SGD ~            |
+...
 
-Here's summary docs!
+### 네이버 영화 평점 예측
 
-![summary](_refs/kozistr-naver_ai_hackathon_2018_report.pdf)
+|           Name            |   Value        |          Note                 |
+| :-----------------------: | :------------: | :---------------------------: |
+|          Epochs           |      30        | 20 ~ 30 에서 converge          |
+|       Learning Rate       |     2e-4       | lr 에 엄청나게 민감             |
+|        Batch Size         |      128       | 128 ~                         |
+|       DropOut Rate        |      0.6       | 0.6 is the best               |
+|      Char Embedding       |      128       | 128 ~ 256 good                |
+|      CNN kernel size      |    3, 5, 7     | 10 이하에서 찾음                |
+|      CNN filter size      |      256       | 256 ~ good                    |
+|         FC Unit           |      512       | 512 good                      |
+|        Optimizer          |     Adam       | Adam, SGD ~                   |
+...
 
 ## Author
 
-HyeongChan Kim ([@kozistr](http://kozistr.tech))
+HyeongChan Kim ([@kozistr](http://kozistr.tech), kozistr@gmail.com)
