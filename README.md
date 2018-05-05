@@ -42,7 +42,6 @@ Soon~
 
 Here's **summary docs**! ![Summary](_refs/kozistr-naver_ai_hackathon_2018_report.pdf)
 
-
 ## Hyper-Parameters
 
 ### 네이버 지식iN 질문 유사도 예측
@@ -56,8 +55,8 @@ Here's **summary docs**! ![Summary](_refs/kozistr-naver_ai_hackathon_2018_report
 |      Char Embedding       |      384       | 384 ~ 400 good                |
 |      CNN kernel size      | 10, 9, 7, 5, 3 | 10 이하에서 찾음                |
 |      CNN filter size      |      256       | 256 ~ good                    |
-|         FC Unit           |     1024       | 1024 good                     |
-|        Optimizer          |     Adam       | Adam, NAdam, SGD ~            |
+|         FC Unit           |     1024       | 512 ~ 1024 good               |
+|        Optimizer          |     Adam       | Adam, Momentum, SGD ~         |
 ...
 
 ### 네이버 영화 평점 예측
@@ -71,7 +70,7 @@ Here's **summary docs**! ![Summary](_refs/kozistr-naver_ai_hackathon_2018_report
 |      Char Embedding       |      128       | 128 ~ 256 good                |
 |      CNN kernel size      |    3, 5, 7     | 10 이하에서 찾음                |
 |      CNN filter size      |      256       | 256 ~ good                    |
-|         FC Unit           |      512       | 512 good                      |
+|         FC Unit           |      512       | ~ 512 good                    |
 |        Optimizer          |     Adam       | Adam, SGD ~                   |
 ...
 
