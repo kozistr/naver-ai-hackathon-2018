@@ -23,14 +23,14 @@ And also i uploaded **summary docs** with **the codes**.
 
 ### Result
 
-*Stage* | *Mission*    | *Metric* | *Score* | *Rank*
-:-----: | :----------: | :------: | :-----: | :---:
-phase 1 | kin          | acc      |         |
-phase 1 | movie-review | mse      |         |
-phase 2 | kin          | acc      |         |
-phase 2 | movie-review | mse      |         |
- final  | kin          | acc      | 0.8115  | 4th
- final  | movie-review | mse      | 0.0310  | 13th
+*Stage* | *Mission*    | *Metric* | *Score* | *Rank* | *Code*
+:-----: | :----------: | :------: | :-----: | :----: | :----:
+phase 1 | kin          | acc      |         |        |
+phase 1 | movie-review | mse      |         |        |
+phase 2 | kin          | acc      |         |        |
+phase 2 | movie-review | mse      |         |        |
+ final  | kin          | acc      | 0.8115  | 4th    | ![code](kin/main.py)
+ final  | movie-review | mse      | 0.0310  | 13th   | ![code](movie-review/main.py)
 
 ## Models
 
