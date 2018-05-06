@@ -52,7 +52,7 @@ Here's **summary docs**! ![Summary](_refs/kozistr-naver_ai_hackathon_2018_report
 |       Learning Rate       |      1e-3      | exponential decay (rate 0.95) |
 |        Batch Size         |     64/128     | 본선에서는 128                  |
 |       DropOut Rate        |      0.7       | 0.7 is the best               |
-|      Char Embedding       |      384       | 384 ~ 400 good                |
+|        Embeddings         |      384       | 384 ~ 400 good                |
 |      CNN kernel size      | 10, 9, 7, 5, 3 | 10 이하에서 찾음                |
 |      CNN filter size      |      256       | 256 ~ good                    |
 |         FC Unit           |     1024       | 512 ~ 1024 good               |
@@ -67,7 +67,7 @@ Here's **summary docs**! ![Summary](_refs/kozistr-naver_ai_hackathon_2018_report
 |       Learning Rate       |     2e-4       | lr 에 엄청나게 민감             |
 |        Batch Size         |      128       | 128 ~                         |
 |       DropOut Rate        |      0.6       | 0.6 is the best               |
-|      Char Embedding       |      128       | 128 ~ 256 good                |
+|        Embeddings         |      128       | 128 ~ 256 good                |
 |      CNN kernel size      |    3, 5, 7     | 10 이하에서 찾음                |
 |      CNN filter size      |      256       | 256 ~ good                    |
 |         FC Unit           |      512       | ~ 512 good                    |
