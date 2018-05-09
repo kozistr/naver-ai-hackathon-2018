@@ -34,6 +34,8 @@ phase 2 | movie-review | mse      |         |        |
 
 > 전처리를 하나도 하지 않고 기본 도커만 사용해서 시도 한 모델들의 **main.py**만 업로드 합니다!
 
+> _codes 폴더에 default 로 주어진 전처리 파일들 업로드!
+
 ## Models
 
 Soon~
